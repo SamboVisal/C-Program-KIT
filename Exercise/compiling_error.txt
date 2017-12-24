@@ -1,0 +1,29 @@
+D:\KIT\YEAR I\Semester 1\Mr.Leo\C program Code\Exercise\atm2.c: In function 'main':
+D:\KIT\YEAR I\Semester 1\Mr.Leo\C program Code\Exercise\atm2.c:30:3: warning: implicit declaration of function 'clrscr' [-Wimplicit-function-declaration]
+   clrscr();
+   ^~~~~~
+D:\KIT\YEAR I\Semester 1\Mr.Leo\C program Code\Exercise\atm2.c:31:3: warning: implicit declaration of function 'gotoxy' [-Wimplicit-function-declaration]
+   gotoxy(34,1);
+   ^~~~~~
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x1b): undefined reference to `clrscr'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x2f): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x4f): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0xa1): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0xcf): undefined reference to `clrscr'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0xe3): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x17d): undefined reference to `clrscr'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x191): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x57f): undefined reference to `clrscr'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x59e): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x5be): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x7a9): undefined reference to `clrscr'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x7bd): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x96a): undefined reference to `clrscr'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x97e): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0xe73): undefined reference to `clrscr'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0xe87): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x1149): undefined reference to `clrscr'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x115d): undefined reference to `gotoxy'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x1300): undefined reference to `clrscr'
+C:\Users\SAMBOV~1\AppData\Local\Temp\ccVvgmWA.o:atm2.c:(.text+0x1314): undefined reference to `gotoxy'
+collect2.exe: error: ld returned 1 exit status
